@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @parent.name %>
+</p>
+
+<p>
+  <b>Firstname:</b>
+  <%= @parent.firstname %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @parent.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @parent.phone %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%= @parent.street %>
+</p>
+
+<p>
+  <b>Postalcode:</b>
+  <%= @parent.postalcode %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @parent.city %>
+</p>
+<%= params[:pupil_id] %>
+
+<%= link_to 'Edit', edit_parent_path(@parent) %> |
+<%= link_to 'Back', parents_path %>

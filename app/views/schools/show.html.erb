@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @school.name %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @school.city %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%= @school.street %>
+</p>
+
+<p>
+  <b>Postalcode:</b>
+  <%= @school.postalcode %>
+</p>
+<h2>Groepen</h2>
+<div id="klassen">
+<% @school.groups.each do |group| %>
+  <%= link_to group.name, group %>
+<% end %>
+</div>
+<div style="clear: both">
+<%= link_to 'Nieuwe groep',{:controller => '/groups', :action => :new, :school_id => @school.id}, :class => 'btn' %>
+<%= link_to 'Edit', edit_school_path(@school) %> |
+<%= link_to 'Back', schools_path %>
+</div>

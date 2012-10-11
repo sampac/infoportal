@@ -1,0 +1,29 @@
+<h1>Listing pupils</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Firstname</th>
+    <th>City</th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pupils.each do |pupil| %>
+  <tr>
+    <td><%= pupil.name %></td>
+    <td><%= pupil.firstname %></td>
+    <td><%= pupil.city %></td>
+    <td><%= pupil.group_id %></td>
+    <td><%= link_to 'Show', pupil %></td>
+    <td><%= link_to 'Edit', edit_pupil_path(pupil) %></td>
+    <td><%= link_to 'Destroy', pupil, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pupil', new_pupil_path %>

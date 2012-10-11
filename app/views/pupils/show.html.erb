@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @pupil.name %>
+</p>
+
+<p>
+  <b>Firstname:</b>
+  <%= @pupil.firstname %>
+</p>
+
+
+<%= link_to 'Edit', edit_pupil_path(@pupil) %> |
+<%= link_to 'Back', group_path(@pupil.group) %>
+
+<h2>Ouders</h2>
+<%= link_to 'Voeg ouder toe',{:controller => '/parents', :action => :new, :pupil_id => @pupil.id}, :class => 'btn' %>
+
+

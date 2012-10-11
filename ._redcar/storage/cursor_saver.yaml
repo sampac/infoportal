@@ -1,0 +1,121 @@
+--- 
+cursor_positions: 
+  - :path: app\assets\stylesheets\custom.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-10-10 22:07:20.431000 +02:00
+  - :path: Gemfile
+    :cursor_offset: 583
+    :timestamp: 2012-10-10 22:03:46.089000 +02:00
+  - :path: public/index.html
+    :cursor_offset: 3522
+    :timestamp: 2012-10-10 21:56:55.088000 +02:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 79
+    :timestamp: 2012-10-10 22:28:08.040000 +02:00
+  - :path: db/migrate/20121010204119_create_groups.rb
+    :cursor_offset: 110
+    :timestamp: 2012-10-10 22:42:07.517000 +02:00
+  - :path: db/migrate/20121010202121_create_schools.rb
+    :cursor_offset: 211
+    :timestamp: 2012-10-10 22:21:21.085000 +02:00
+    :selection_offset: 62
+    :block_selection_mode: false
+  - :path: db/migrate/20121010210949_parent_pupil.rb
+    :cursor_offset: 228
+    :timestamp: 2012-10-10 23:12:22.792000 +02:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 812
+    :timestamp: 2012-10-10 22:23:42.584000 +02:00
+  - :path: db/migrate/20121010204409_create_parents.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-10 22:44:09.308000 +02:00
+  - :path: db/migrate/20121010222244_create_families.rb
+    :cursor_offset: 84
+    :timestamp: 2012-10-11 00:24:30.482000 +02:00
+  - :path: app/assets/stylesheets/schools.css.scss
+    :cursor_offset: 394
+    :timestamp: 2012-10-11 10:34:17.861000 +02:00
+  - :path: app/views/parents/_form.html.erb
+    :cursor_offset: 1083
+    :timestamp: 2012-10-10 22:44:09.636000 +02:00
+    :selection_offset: 0
+    :block_selection_mode: false
+  - :path: db/migrate/20121011085058_add_fields_to_pupil.rb
+    :cursor_offset: 230
+    :timestamp: 2012-10-11 10:52:01.547000 +02:00
+  - :path: db/migrate/20121010203529_create_pupils.rb
+    :cursor_offset: 136
+    :timestamp: 2012-10-10 22:41:29.546000 +02:00
+  - :path: app/views/parents/show.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-10 22:44:09.630000 +02:00
+  - :path: app/controllers/parents_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-10 22:44:09.490000 +02:00
+  - :path: app/models/school.rb
+    :cursor_offset: 113
+    :timestamp: 2012-10-10 23:16:53.615000 +02:00
+  - :path: app/controllers/pupils_controller.rb
+    :cursor_offset: 553
+    :timestamp: 2012-10-11 11:02:32.563000 +02:00
+  - :path: app/views/parents/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-10 22:44:09.627000 +02:00
+  - :path: app/views/parents/new.html.erb
+    :cursor_offset: 78
+    :timestamp: 2012-10-10 22:44:09.633000 +02:00
+  - :path: app/views/pupils/show.html.erb
+    :cursor_offset: 230
+    :timestamp: 2012-10-11 11:16:40.965000 +02:00
+    :selection_offset: 206
+    :block_selection_mode: false
+  - :path: app/views/pupils/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-10 22:35:29.667000 +02:00
+  - :path: app/views/pupils/edit.html.erb
+    :cursor_offset: 126
+    :timestamp: 2012-10-11 11:25:37.996000 +02:00
+  - :path: app/views/schools/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-10 22:21:21.415000 +02:00
+  - :path: app/views/schools/show.html.erb
+    :cursor_offset: 413
+    :timestamp: 2012-10-11 11:08:27.011000 +02:00
+  - :path: app/views/groups/show.html.erb
+    :cursor_offset: 275
+    :timestamp: 2012-10-11 11:12:51.482000 +02:00
+  - :path: app/controllers/groups_controller.rb
+    :cursor_offset: 526
+    :timestamp: 2012-10-11 10:19:12.425000 +02:00
+    :selection_offset: 560
+    :block_selection_mode: false
+  - :path: app/models/group.rb
+    :cursor_offset: 111
+    :timestamp: 2012-10-11 10:25:32.753000 +02:00
+  - :path: app/views/pupils/index.html.erb
+    :cursor_offset: 112
+    :timestamp: 2012-10-11 11:07:07.695000 +02:00
+  - :path: app/views/pupils/_form.html.erb
+    :cursor_offset: 757
+    :timestamp: 2012-10-11 11:14:52.139000 +02:00
+  - :path: app/views/groups/_form.html.erb
+    :cursor_offset: 33
+    :timestamp: 2012-10-11 10:24:36.014000 +02:00
+    :selection_offset: 65
+    :block_selection_mode: false
+  - :path: app/models/parent.rb
+    :cursor_offset: 115
+    :timestamp: 2012-10-11 11:48:34.200000 +02:00
+  - :path: app/models/pupil.rb
+    :cursor_offset: 112
+    :timestamp: 2012-10-11 11:48:47.098000 +02:00
+  - :path: app/models/family.rb
+    :cursor_offset: 150
+    :timestamp: 2012-10-11 10:43:42.575000 +02:00
+  - :path: db/migrate/20121011095203_families.rb
+    :cursor_offset: 234
+    :timestamp: 2012-10-11 11:53:42.604000 +02:00
+  - :path: db/schema.rb
+    :cursor_offset: 992
+    :timestamp: 2012-10-11 11:54:13.228000 +02:00
+files_to_retain: 0
